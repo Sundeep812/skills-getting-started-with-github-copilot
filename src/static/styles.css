@@ -74,6 +74,35 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.participants-list {
+  list-style-type: none; /* hide default bullets */
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+/* delete icon next to each participant */
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #c62828; /* red color */
+  font-size: 0.9rem;
+}
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
